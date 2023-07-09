@@ -134,6 +134,7 @@ justify-content: center;
  .homepro{
     background-color: red;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     >.home{
         .homesection{
