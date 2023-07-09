@@ -139,6 +139,8 @@ justify-content: center;
     justify-content: center;
     flex-direction: column;
     >.home{
+    width: 75%;
+        height: 100vh;
         >.homesection{
             background-color: antiquewhite;
             width: 100%;
@@ -155,6 +157,5 @@ justify-content: center;
     display: flex;
     justify-content: center;
     justify-content: space-around;
-
     border: 2px solid red;
 }
