@@ -174,4 +174,8 @@ justify-content: center;
     justify-content: center;
     justify-content: space-around;
     border: 2px solid red;
+
+    > div > .btn1{
+        background-color: aqua;
+    }
 }
