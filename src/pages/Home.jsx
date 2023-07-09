@@ -85,8 +85,8 @@ const Home = () => {
 
   return (
     <div>
-      <div>
-        <section>
+      <div className="login">
+        <section className="loginsection">
           <form onSubmit={submitHandler}>
             <input
               type="text"
