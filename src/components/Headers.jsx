@@ -31,7 +31,7 @@ const Headers = () => {
         <Link to={"/"}>Home</Link>
         <Link to={"/profile"}>Profile</Link>
         {isAuthenticated ? (
-          <button className="btn" disabled={loading} onClick={logoutHandler}>
+          <button id="btn" disabled={loading} onClick={logoutHandler}>
             Logout
           </button>
         ) : (
