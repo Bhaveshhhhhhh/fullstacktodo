@@ -177,11 +177,22 @@ justify-content: center;
     > div > .btn1{
         width: 100%;
         background-color: red;
+
+        &:hover{
+            background-color: white;
+            color: red;
+            border: 2px solid red;
+            font-size: small;
+        }
     }
 
     >.hello{
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        > input{
+            font-size: larger;
+        }
     }
 }
