@@ -9,8 +9,8 @@ const TodoItem = ({
   id,
 }) => {
   return (
-    <div>
-      <div>
+    <div className="items">
+      <div className="flex">
         <h4>{title}</h4>
         <p>{description}</p>
       </div>

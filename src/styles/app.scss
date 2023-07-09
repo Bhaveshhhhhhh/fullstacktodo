@@ -1,5 +1,104 @@
 *{
     margin: 0;
     padding:0;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    overflow:hidden;
 }
 
+nav {
+    
+    background-color: rgb(255, 153, 51);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > div{
+    padding: 5px;
+    >h2{
+        font-family:cursive;
+        font-size: 27px;
+    }
+    }
+    > article{
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    > a{
+        
+        color: black;
+        &:hover{
+        color: rgb(24, 24, 24);
+        border-bottom: 2px solid rgb(0, 0, 0);
+        }
+    }
+    }
+}
+
+button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(255, 153, 51); 
+    border: none;
+    margin: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    &:hover{
+        cursor: pointer;
+        border: 2px solid rgb(255, 153, 51);
+        background-color: white;
+        color: rgb(255, 153, 51);
+    }
+}
+
+input  {
+    margin: 20px;
+    width: 50%;
+    padding: 5px 20px;
+    outline: none;
+    border: 1px solid black;
+}
+
+
+.login{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+> .loginsection{
+    background-color: rgb(250, 241, 204);
+    width: 75%;
+    height: 100vh;
+    display: flex;
+        justify-content: center;
+    >form{
+        width: 90%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+}
+}
+
+
+.profile{
+    background-color: rgb(250, 241, 204);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    >h1{
+        padding: 20px;
+    }
+    >p{
+        padding: 20px;
+    }
+}

@@ -8,7 +8,7 @@ const Profile = () => {
   return loading ? (
     <Loader />
   ) : (
-    <div>
+    <div className="profile">
       <h1>{user?.name}</h1>
       <p>{user?.email}</p>
     </div>

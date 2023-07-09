@@ -40,8 +40,8 @@ const Login = () => {
   if (isAuthenticated) return <Navigate to={"/"} />;
 
   return (
-    <div>
-      <section>
+    <div className="login">
+      <section className="loginsection">
         <form onSubmit={submitHandler}>
           <input
             value={email}
