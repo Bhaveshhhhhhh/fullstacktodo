@@ -130,10 +130,33 @@ justify-content: center;
             }
         }
 }
-
-
 .items{
     background-color: red;
     width: 100%;
     height: 100vh;
+}
+
+
+.login1 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+
+    >.loginsection1 {
+        background-color: rgb(250, 241, 204);
+        width: 75%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+
+        >form {
+            width: 90%;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
