@@ -152,7 +152,7 @@ justify-content: center;
     align-items: center;
     margin: auto;
         >.homesection{
-            background-color: rgb(255, 153, 51);
+            background-color: rgb(250, 241, 204);
             width: 90%;
                 height: 70vh;
                 display: flex;
@@ -162,7 +162,7 @@ justify-content: center;
         }
     }
     >section{
-        background-color: rgb(255, 153, 51);
+        background-color: rgb(250, 241, 204);
         width: 70%;
         height: 40vh;
     }
@@ -173,9 +173,15 @@ justify-content: center;
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    border: 2px solid red;
+    border: 2px solid black;
 
     > div > .btn1{
-        background-color: aqua;
+        background-color: red;
+    }
+
+    > div > .hello{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
