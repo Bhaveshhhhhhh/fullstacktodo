@@ -4,7 +4,6 @@
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    overflow:hidden;
 }
 
 nav {
@@ -134,13 +133,13 @@ justify-content: center;
  .homepro{
     background-color: red;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     >.home{
     width: 75%;
-        height: 100vh;
+    height: 100vh;
         >.homesection{
             background-color: antiquewhite;
             width: 100%;
@@ -149,6 +148,8 @@ justify-content: center;
     }
     >section{
         background-color: white;
+        width: 75%;
+            height: 50vh;
     }
  }
 
