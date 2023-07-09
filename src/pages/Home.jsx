@@ -84,7 +84,7 @@ const Home = () => {
   if (!isAuthenticated) return <Navigate to={"/login"} />;
 
   return (
-    <div>
+    <div className="homepro">
       <div className="home">
         <section className="homesection">
           <form onSubmit={submitHandler}>
