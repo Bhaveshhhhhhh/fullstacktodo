@@ -38,6 +38,10 @@ nav {
     }
 }
 
+.btn{
+    background-color: red;
+}
+
 button{
     padding: 10px 20px;
     color: white;
@@ -100,15 +104,5 @@ justify-content: center;
     }
     >p{
         padding: 20px;
-    }
-}
-
-
-.btn{
-    display: flex;
-    align-items: center;
-    &:hover{
-        cursor: pointer;
-        
     }
 }
