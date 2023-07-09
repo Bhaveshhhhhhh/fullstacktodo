@@ -177,12 +177,12 @@ justify-content: center;
     > div > .btn1{
         width: 100%;
         background-color: red;
+        font-size: small;
 
         &:hover{
             background-color: white;
             color: red;
             border: 2px solid red;
-            font-size: small;
         }
     }
 
