@@ -106,3 +106,24 @@ justify-content: center;
         padding: 20px;
     }
 }
+
+
+@media screen and (max-width:600px) {
+    button {
+            padding: 10px 20px;
+            color: white;
+            background-color: rgb(255, 153, 51);
+            border: none;
+            margin: 20px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+    
+            &:hover {
+                cursor: pointer;
+                border: 2px solid rgb(255, 153, 51);
+                background-color: white;
+                color: rgb(255, 153, 51);
+            }
+        }
+}
