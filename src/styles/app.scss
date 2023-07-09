@@ -136,27 +136,12 @@ justify-content: center;
     height: 100vh;
 }
 
-
-.login1 {
+.home{
     width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
+    height: 100vh;
 
-    >.loginsection1 {
-        background-color: rgb(250, 241, 204);
-        width: 75%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-
-        >form {
-            width: 90%;
-            height: 70vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+    >.homesection{
+        width: 10%;
+            height: 10vh;
     }
 }
