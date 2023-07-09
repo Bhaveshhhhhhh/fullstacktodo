@@ -102,3 +102,15 @@ justify-content: center;
         padding: 20px;
     }
 }
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    &:hover {
+            cursor: pointer;
+            border: 2px solid rgb(255, 153, 51);
+            background-color: white;
+            color: rgb(255, 153, 51);
+        }
+}
