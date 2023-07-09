@@ -133,6 +133,42 @@ justify-content: center;
                 color: rgb(255, 153, 51);
             }
         }
+
+
+ .homepro {
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     margin: auto;
+
+     >.home {
+         width: 75%;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: auto;
+
+         >.homesection {
+             background-color: rgb(250, 241, 204);
+             width: 90%;
+             height: 70vh;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+         }
+     }
+
+     >section {
+         width: 100%;
+         height: 100vh;
+     }
+ }
+
 }
 
  .homepro{
