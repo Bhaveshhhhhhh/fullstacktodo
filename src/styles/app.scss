@@ -139,14 +139,14 @@ justify-content: center;
     flex-direction: column;
     justify-content: center;
     >.home{
-        .homesection{
+        >.homesection{
             background-color: antiquewhite;
             width: 80%;
             height: 40%;
         }
     }
     >section{
-        background-color: black;
+        background-color: white;
     }
  }
 
