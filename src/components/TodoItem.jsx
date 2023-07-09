@@ -10,7 +10,7 @@ const TodoItem = ({
 }) => {
   return (
     <div className="items">
-      <div className="flex">
+      <div>
         <h4>{title}</h4>
         <p>{description}</p>
       </div>
